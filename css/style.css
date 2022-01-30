@@ -391,8 +391,8 @@ img {
   color: var(--white-color);
 }
 
-.container-logo {
-  margin-bottom: 20px;
+.footer-item:nth-child(1) {
+  margin-top: 20px;
 }
 
 .footer-web {
@@ -440,10 +440,6 @@ img {
 
 .footer-address-network {
   display: flex;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .footer-heading {
@@ -454,11 +450,9 @@ img {
   color: #ffffff;
   margin-top: 12px;
   margin-bottom: 20px;
-  margin-left: -250px;
 }
 
 .footer-item-networks {
-  margin-left: -250px;
   display: flex;
 }
 
@@ -551,6 +545,7 @@ img {
   padding-right: 22px;
   background-color: var(--portfolio-btn);
   border-radius: 4px;
+  border: transparent;
 }
 
 .portfolio {
