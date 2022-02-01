@@ -451,6 +451,10 @@ img {
   display: flex;
 }
 
+.container-logo {
+  margin-right: 70px;
+}
+
 .footer-social-networks-link {
   width: 44px;
   height: 44px;
